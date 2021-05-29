@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.footer-logo{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+}
+.footer-logo img{
+  display: block;
+  width: 60%;
+  height: 80px;
+}
+.social{
+	padding : 10px 20px;
+	display : inline-block;
+	color : #000000;
+	margin: 5px;
+	height: 60px; 
+	line-height: 88px;
+	float: right;
+}
+
+
