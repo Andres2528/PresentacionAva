@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+body{
+    background-color: rgb(243, 239, 239);
+}
+.titles{
+	text-align: center;
+	padding : 50px 60px;
+}
+.subTitle{
+	margin: 25px;
+}
+p{
+	margin: 25px;
+}
+.imgCenter{
+	display:block;
+	margin:auto;
+	padding : 50px;
+	height : 30%;
+	width : 20%;
+	}
+
+@media screen and (max-width: 840px){
+    .imgCenter{
+	display:block;
+	margin:auto;
+	padding : 50px;
+	height : 30%;
+	width : 40%;
+	}
+}
+@media screen and (max-width: 540px){
+     .imgCenter{
+	display:block;
+	margin:auto;
+	padding : 50px;
+	height: 200px;
+	width : 200px;
+	}
+}
+.textCenter {
+	text-align: center;
+}
+ul{
+	margin: 35px;
+}
+a{
+text-decoration: none;
+}
+.btnLinkAva{
+	background: #e86320;
+	color: #ffffff;
+	border-color: red;
+	padding : 15px 90px;
+	box-shadow: 0px 0.5px #000000;
+	border-radius: 15px;
+}
+.btn-ava{
+	margin: 25px;
+}
+@media screen and (max-width: 540px){
+     .btnLinkAva{
+	background: #e86320;
+	color: #ffffff;
+	border-color: red;
+	padding : 15px 40px;
+	box-shadow: 0px 0.5px #000000;
+	border-radius: 15px;
+}
+}
